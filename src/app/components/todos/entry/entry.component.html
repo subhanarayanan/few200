@@ -1,0 +1,10 @@
+<div class="form-group">
+  <label for="item">Item</label>
+  <input class="form-control"
+         #item
+         name="item">
+  <input type="button"
+         class="btn btn-primary"
+         (click)="addItem(item)"
+         value="Add Todo Item">
+</div>
